@@ -1,0 +1,8 @@
+2026-10-11 09:12:51 [CRITICAL] SENSITIVE_TO_USB: Sensitive file copied to USB drive: salary_2026.csv -> /home/student/sftms_demo/USB_E/salary_2026.csv | user=intern01 proc=explorer.exe
+2026-10-11 09:12:53 [CRITICAL] SENSITIVE_TO_CLOUD: Sensitive file copied to cloud-sync folder: /home/student/sftms_demo/CloudSync/Dropbox/server_private.key | user=bob proc=Dropbox.exe
+2026-10-11 09:12:54 [HIGH] UNAUTHORIZED_MOVEMENT: Sensitive file moved to unapproved location: /home/student/sftms_demo/Staging/customer_db.sql | user=admin proc=mv
+2026-10-11 09:12:56 [HIGH] INTEGRITY_FAILURE: File hash mismatch detected: /home/student/sftms_demo/Documents/Confidential/server_private.key | user=SYSTEM proc=unknown_dropper.exe
+2026-10-11 09:12:57 [HIGH] INTEGRITY_FAILURE: File hash mismatch detected after copy: /home/student/sftms_demo/Documents/Public/report.docx | user=alice proc=unknown_sync_tool
+2026-10-11 09:12:59 [WARNING] SUSPICIOUS_OUTBOUND: Outbound transfer to removable location: /home/student/sftms_demo/USB_E/budget_draft.txt | user=alice proc=explorer.exe
+2026-10-11 09:13:01 [HIGH] SUSPICIOUS_BULK_TRANSFER: 50 files transferred to unknown directory '/home/student/sftms_demo/Downloads/unknown_dir' within 60s | user=root proc=n/a
+2026-10-11 09:13:04 [HIGH] SENSITIVE_DELETED: Sensitive file deleted: /home/student/sftms_demo/Documents/Archive/customer_db.sql | user=intern01 proc=del.exe

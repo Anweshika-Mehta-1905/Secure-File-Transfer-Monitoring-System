@@ -1,0 +1,39 @@
+{
+  "generated": "2026-10-11 09:13:06",
+  "total_events": 210,
+  "by_event": {
+    "COPY": 6,
+    "MOVE": 1,
+    "MODIFY": 1,
+    "CREATE": 200,
+    "BULK_TRANSFER": 1,
+    "DELETE": 1
+  },
+  "total_alerts": 8,
+  "by_severity": {
+    "CRITICAL": 2,
+    "HIGH": 5,
+    "WARNING": 1
+  },
+  "by_alert_type": {
+    "SENSITIVE_TO_USB": 1,
+    "SENSITIVE_TO_CLOUD": 1,
+    "UNAUTHORIZED_MOVEMENT": 1,
+    "INTEGRITY_FAILURE": 2,
+    "SUSPICIOUS_OUTBOUND": 1,
+    "SUSPICIOUS_BULK_TRANSFER": 1,
+    "SENSITIVE_DELETED": 1
+  },
+  "by_user": {
+    "alice": 4,
+    "intern01": 2,
+    "bob": 201,
+    "admin": 1,
+    "SYSTEM": 1,
+    "root": 1
+  },
+  "sensitive_events": 6,
+  "integrity_checks": 8,
+  "integrity_match": 6,
+  "integrity_mismatch": 2
+}

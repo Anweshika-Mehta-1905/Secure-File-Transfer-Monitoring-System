@@ -1,0 +1,17 @@
+{
+  "_comment": "Edit the paths below for your machine. Windows example: C:\\Users\\you\\Documents",
+  "watch_dirs": ["/home/user/Documents", "/home/user/Downloads"],
+  "sensitive_dirs": ["/home/user/Documents/Confidential"],
+  "sensitive_extensions": [".pem", ".key", ".pfx", ".kdbx", ".sql", ".bak"],
+  "sensitive_keywords": ["password", "confidential", "secret", "salary", "payroll", "credentials"],
+  "authorized_users": ["admin", "alice"],
+  "allowed_destinations": ["/home/user/Documents/Confidential", "/home/user/Documents/Archive"],
+  "removable_prefixes": ["/media", "/run/media", "/Volumes", "E:\\", "F:\\"],
+  "network_prefixes": ["//", "\\\\", "/mnt/share", "Z:\\"],
+  "cloud_folder_names": ["Dropbox", "OneDrive", "Google Drive", "iCloud", "CloudSync", "MEGA"],
+  "hash_algorithm": "sha256",
+  "bulk_threshold": 50,
+  "bulk_window_seconds": 60,
+  "log_dir": "logs",
+  "report_dir": "reports"
+}
